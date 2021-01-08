@@ -18,10 +18,9 @@ $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git -m "i
 ```sh-session
 $ npm install -g gitty
 
-$ gitty COMMAND
-running command...
+$ gitty push 
 
-$ weight --help [COMMAND]
+$ gitty --help 
 USAGE
 ...
 ```
@@ -35,16 +34,16 @@ USAGE
 
 gitty push will automatically push your code to github after adding it to the staging area, commiting it.
 
-USAGE
+### USAGE
   $ gitty push
   $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git  -m "Intial Commit"
 
-OPTIONS
+### OPTIONS
   -m,  commit message
   -r,  add remote
   -h, --help         show CLI help
 
-DESCRIPTION
+### DESCRIPTION
 $ gitty push 
 
 This command is the combination of 
