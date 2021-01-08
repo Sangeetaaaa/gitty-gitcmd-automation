@@ -47,9 +47,13 @@ gitty push will automatically push your code to github after adding it to the st
 $ gitty push 
 
 This command is the combination of 
+
 git add ., 
+
 git commit -m "" and 
+
 git push -f origin master
+
 
 $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git  -m "Intial Commit"
 
