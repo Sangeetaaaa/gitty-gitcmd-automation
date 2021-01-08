@@ -58,8 +58,13 @@ git push -f origin master
 $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git  -m "Intial Commit"
 
 This command is the combination of 
+
 git init, 
+
 git add ., 
+
 git commit -m "", 
+
 git remote add origin and 
+
 git push -f origin master
