@@ -7,7 +7,7 @@ class PushCommand extends Command {
     const {flags} = this.parse(PushCommand)
     let commit = flags.commit || ";>)"
     let remote = flags.remote 
-    let cmd = `git init && git add . && git commit -m "${commit}" && git push -f origin master`
+    let cmd = `git add . && git commit -m "${commit}" && git push -f origin master`
   
     if (remote) {
       cmd = `git init && git add . && git commit -m "${commit}" && git remote add origin ${remote} && git push -f origin master`
