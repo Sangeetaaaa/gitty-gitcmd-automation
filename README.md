@@ -9,38 +9,27 @@ While pushing your code to github you need to initial git, then you probably nee
 
 
 This all can be done using only one command
-![gif](https://giphy.com/gifs/ufc-26FL5GGyV7SjcCJ8I)
-
 
 $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git -m "initial commit"
 
 note: This will push your code to master branch
 
 
-# Usage
+# Installation
 
 <!-- usage -->
 ```sh-session
 $ npm install -g gitty
 
-$ gitty push 
+$ gitty push -r add remote -m add commit message
 
-$ gitty --help 
-USAGE
 ...
 ```
 <!-- usagestop -->
 
-# Commands
-<!-- commands -->
-* [`gitty push`](#gitty-push)
-
-## `gitty push`
-
-gitty push will automatically push your code to github after adding it to the staging area, commiting it.
-
 ### USAGE
   $ gitty push
+
   $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git  -m "Intial Commit"
 
 ### OPTIONS
@@ -49,27 +38,14 @@ gitty push will automatically push your code to github after adding it to the st
   -h, --help         show CLI help
 
 ### DESCRIPTION
-$ gitty push 
-
-This command is the combination of 
-
-git add ., 
-
-git commit -m "" and 
-
-git push -f origin master
-
 
 $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git  -m "Intial Commit"
 
-This command is the combination of 
+This command will initialize git, add all your files to stagging area, commit it with your given message, will add remote and will push your code to master branch.  
 
-git init, 
 
-git add ., 
+$ gitty push 
 
-git commit -m "", 
+This command will add all your files to stagging area, commit it and will push to master branch
+note: This command will show err if remote was not added before.
 
-git remote add origin and 
-
-git push -f origin master
