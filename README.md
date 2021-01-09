@@ -34,7 +34,9 @@ $ gitty push -r add remote -m add commit message
 
 ### OPTIONS
   -m,  commit message
+
   -r,  add remote
+
   -h, --help         show CLI help
 
 ### DESCRIPTION
@@ -47,5 +49,6 @@ This command will initialize git, add all your files to stagging area, commit it
 $ gitty push 
 
 This command will add all your files to stagging area, commit it and will push to master branch
+
 note: This command will show err if remote was not added before.
 
