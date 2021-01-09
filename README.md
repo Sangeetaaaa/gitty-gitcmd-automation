@@ -9,7 +9,7 @@ While pushing your code to github you need to initial git, then you probably nee
 
 
 This all can be done using only one command
-![https://giphy.com/gifs/ufc-26FL5GGyV7SjcCJ8I](one)
+![gif](https://giphy.com/gifs/ufc-26FL5GGyV7SjcCJ8I)
 
 
 $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git -m "initial commit"
