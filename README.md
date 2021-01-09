@@ -1,16 +1,20 @@
 gitty
 =====
 
-Just by using gitty push you can save a lot of your efforts while pushing your code to github
+Just by using $ gitty push you can save a lot of your efforts while pushing your code to github
 
 How ?
 
-While pushing your code to github, you need to init git then you need to add all your files to staging area then commit it add remote and then only you are ready to push your code.
+While pushing your code to github you need to initial git, then you probably need to add all your files to the staging area, commit it, add remote and then only you are ready to push your code.
 
 
-But this all could be more easy 
+This all can be done using only one command
+![https://giphy.com/gifs/ufc-26FL5GGyV7SjcCJ8I](one)
+
 
 $ gitty push -r https://github.com/Sangeetaaaa/gitty-gitcmd-automation.git -m "initial commit"
+
+note: This will push your code to master branch
 
 
 # Usage
