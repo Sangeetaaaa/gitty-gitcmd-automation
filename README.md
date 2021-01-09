@@ -5,7 +5,7 @@ Just by using $ gitty push you can save a lot of your efforts while pushing your
 
 How ?
 
-While pushing your code to github you need to initial git, then you probably need to add all your files to the staging area, commit it, add remote and then only you are ready to push your code.
+While pushing your code to github you need to initialize git, then you probably need to add all your files to the staging area, commit it, add remote and then only you are ready to push your code.
 
 
 This all can be done using only one command
